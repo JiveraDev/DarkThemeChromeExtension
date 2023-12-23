@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "DARKCLOCK",
+  "version": "1.0",
+  "description": "Simple aesthetic startup page for Chrome",
+  "permissions": ["activeTab"],
+
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "theme": {
+    "colors": {
+      "frame": [33, 33, 33],
+      "toolbar": [40, 40, 40],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "ntp_text": [255, 255, 255],
+      "ntp_link": [102, 204, 255],
+      "ntp_section": [33, 33, 33],
+      "ntp_background": [20, 20, 20]
+    }
+  }
+}
+

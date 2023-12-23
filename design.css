@@ -1,0 +1,41 @@
+
+*{
+  background-color: black;
+}
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the body take up the full height of the viewport */
+  margin: 0;
+  
+}
+#date{
+  word-spacing: 4rem;
+
+}
+
+#date, #time {
+  
+  margin-bottom: 1px;
+  color: whitesmoke;
+}
+
+#time{
+  font-size: 20rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 1000px) {
+  #time {
+    font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #time {
+    font-size: 7rem;
+  }
+}
